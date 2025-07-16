@@ -8,7 +8,7 @@ from eth_account.messages import encode_typed_data
 # ==============================================================================
 
 # 아발란체 AEM RPC URL
-RPC_URL = "http://43.201.35.39:9650/ext/bc/C/rpc"
+RPC_URL = ""
 
 # 4단계에서 배포한 컨트랙트 주소
 CONTRACT_ADDRESS = "0x62a53Be547930d2b199Ef139F27A63c3Af2691C3"
