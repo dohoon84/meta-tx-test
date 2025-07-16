@@ -34,11 +34,7 @@ pip install web3 eth-account
    - 컨트랙트 주소를 체크섬 주소로 변환
    - Raw 트랜잭션 속성 이름 수정 (`rawTransaction` → `raw_transaction`)
 
-2. EIP-712 서명 관련 수정
-   - 도메인 이름을 실제 컨트랙트 이름으로 수정 ("KBTFNFT" → "test")
-   - 타입 이름 수정 ("executeMetaTransferFrom" → "MetaTransferFrom")
-
-3. 트랜잭션 영수증 접근 방식 수정
+2. 트랜잭션 영수증 접근 방식 수정
    - 속성 접근을 딕셔너리 방식으로 변경 (예: `tx_receipt.blockNumber` → `tx_receipt['blockNumber']`)
 
 ## 사용 방법
